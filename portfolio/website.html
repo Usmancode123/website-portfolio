@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="website.css" />
+    <link 
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <header> 
+      <p>Usman's Portfolio</p>
+
+      <!-- nav bar  -->
+      <nav class="navbar">
+        <ul class="sidebar">
+          <div id="icon">
+            <div class="side-icon">
+          
+            <i class="fa-solid fa-xmark"  onclick="hideMenu()"></i>
+          </div>
+          </div>
+          <li><a href="#Home" class="active"> Home </a></li>
+          <li><a href="#About"> About </a></li>
+          <li><a href="#Skill"> Skill </a></li>
+          <li><a href="Contact Me"> Contact Me </a></li>
+          
+   
+        </ul>
+
+        <ul>
+          <li class="hideOnmoblie">
+            <a href="#Home" class="active"> Home </a>
+          </li>
+          <li class="hideOnmoblie"><a href="#About"> About </a></li>
+          <li class="hideOnmoblie"><a href="#Skill"> Skill </a></li>
+          <li class="hideOnmoblie"><a href="#Contact Me"> Contact Me </a></li>
+          <li class="hideOnmoblie">   <img src="../website/dark theme icon/moon.png" alt="moon" onclick="changeMode()" id="moon"></li>
+
+          <!-- icon here  -->
+        </ul>
+     
+      </nav>
+
+      <div class="icon">
+        <i class="fa-solid fa-bars" id="#icon" onclick="menuBar()"></i>
+      </div>
+   
+    </header>
+
+    <!-- first section  -->
+    <main>
+      <section class="first-section" id="Home">
+        <div class="left-Section">
+          <div class="self">
+            Hi, My name is <span class="puple">Usman </span>
+            <!-- <p class="Frontend">I am Frontend Developer</p> -->
+          <div style="font-weight: 600;">   <span id="element"></span> </div>
+          </div>
+
+          <span id="element"></span>
+          <!-- icons-->
+          <div class="social-icon">
+            <ul>
+              <li>
+                <a href="https://in.linkedin.com/"
+                  ><i class="fa-brands fa-linkedin" id="hover3"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://github.com/"
+                  ><i class="fa-brands fa-github" id="hover4"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="right-Section">
+          <img src="../website/software-developer-6521720_640.jpg" alt="" />
+        </div>
+      </section>
+    </main>
+
+    <!-- second section  -->
+    <main class="second">
+      <section class="second-section" id="About">
+        <div class="left-about">
+          <img src="../website/own img 1 - Copy.jpeg" alt="" />
+        </div>
+
+        <div class="right-about">
+          <h2>About <span>Me</span></h2>
+          <h3>Frontend Developer</h3>
+          <p class="p-text">
+            I am Usman shaikh . <br />
+            I reside at wadala. <br />
+            i have completed my HSC in <br />
+            commerce from maharashtra colllege. <br />
+            this year, i have completed my Gradution <br />
+            in BMM from siddarth college. <br />
+            I am a fresher.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <!-- skill -->
+    <main>
+      <!-- html  -->
+      <section class="skill" id="Skill">
+        <h1 style="cursor: pointer; font-weight: 600">
+          My
+          <span style="color: rgb(178, 107, 278); font-weight: 600"
+            >Skills</span
+          >
+        </h1>
+
+        <!-- chtml -->
+
+        <div class="img-container">
+          <ul>
+            <li class="ratio">
+              <img
+                src="../website/skill img/HTML5_logo_and_wordmark.svg1.png"
+                alt=""
+              />
+              <p class="img-p">HTML</p>
+            </li>
+
+            <li class="ratio">
+              <img
+                src="../website/skill img/css3-logo-png-transparent1.png"
+                alt=""
+              />
+              <p class="img-p">CSS</p>
+            </li>
+
+            <li class="ratio">
+              <img src="../website/skill img/js.webp" alt="" />
+              <p class="img-p">Java Script</p>
+            </li>
+
+            <li class="ratio">
+              <img src="../website/skill img/React.webp" alt="" />
+              <p class="img-p">React</p>
+            </li>
+
+            <li class="ratio">
+              <img src="../website/skill img/boot.png" alt="" />
+              <p class="img-p">Bootstrap</p>
+            </li>
+
+            <li class="ratio">
+              <img
+                src="../website/skill img/github.png"
+                alt=""
+                style="background-color: rgb(255, 255, 255)"
+              />
+              <p class="img-p">Github</p>
+            </li>
+
+            <li class="ratio">
+              <img src="../website/skill img/Mysql_logo.png" alt="" />
+              <p class="img-p">MySQL</p>
+            </li>
+
+            <li class="ratio">
+              <img src="../website/skill img/jqurey.png" alt="" />
+              <p class="img-p">jQuery</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+
+
+    <!-- contact form  -->
+<section class="container" id="Contact Me">
+  <form >
+    <h3>Get in touch</h3>
+
+    <input type="hidden" name="access_key" value="e246f819-bf9a-4650-9429-b4fad28a1752">
+    <input type="text" name="name"  placeholder="Your Name" required id="name">
+
+  
+    <input type="email" name="email"  placeholder="Email Id" required id="email">
+
+    <input type="tel" name="phone"  placeholder="Phone" required id="phone">
+
+    <textarea name="message"  id="message"  rows="4" placeholder="Enter Your Message"></textarea>
+    <button type="submit" >Submit</button>
+  </form>
+</section>
+
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+  <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['<i style="font-weight:500"> Web desinger</i>', '<i style="font-weight:500">&amp; Frontend developer</i>'],
+      typeSpeed: 50,
+    });
+  </script>
+    <!-- <script src=" https://smtpjs.com/v3/smtp.js"></script> -->
+    <script src="website.js"></script>
+  </body>
+</html>
+<!--  -->
